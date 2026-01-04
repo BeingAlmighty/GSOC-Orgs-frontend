@@ -1,0 +1,57 @@
+.header {
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #2a2a2a;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-gsoc {
+    color: #22c55e;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.logo-orgs {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.nav a {
+    color: #a1a1a1;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.nav a:hover {
+    color: #22c55e;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        padding: 1rem;
+    }
+
+    .logo-gsoc,
+    .logo-orgs {
+        font-size: 1.25rem;
+    }
+}
