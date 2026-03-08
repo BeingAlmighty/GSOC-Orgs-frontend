@@ -1,8 +1,8 @@
 import './Sidebar.css';
 
 const Sidebar = ({ selectedYears, onYearChange, selectedNewOrgYears, onNewOrgYearChange, isOpen, onClose }) => {
-    const years = ['2025', '2024', '2023'];
-    const newOrgYears = ['2025', '2024'];
+    const years = ['2026', '2025', '2024', '2023'];
+    const newOrgYears = ['2026', '2025', '2024'];
 
     const handleYearToggle = (year) => {
         const newYears = selectedYears.includes(year)
